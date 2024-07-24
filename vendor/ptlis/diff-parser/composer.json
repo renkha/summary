@@ -1,0 +1,30 @@
+{
+    "name": "ptlis/diff-parser",
+    "description": "A parser for unified diff files, returning a hydrated object graph.",
+    "license": "MIT",
+    "keywords": [ "diff", "unified-diff", "parser" ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "brian ridley",
+            "email":"ptlis@ptlis.net"
+        }
+    ],
+    "require": {
+        "php": ">=8.1.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.6",
+        "phpunit/phpunit": "^9.5.0",
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "ptlis\\DiffParser\\": "src/",
+            "ptlis\\DiffParser\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
