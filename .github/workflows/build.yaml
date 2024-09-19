@@ -33,7 +33,6 @@ jobs:
           REGISTRY_HOST: ${{ vars.REGISTRY_HOST }}
         run: |
           pwd
-          ls
           ls -l app
           chmod +x app
           ls -l app
